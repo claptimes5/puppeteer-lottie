@@ -69,7 +69,7 @@ module.exports = async (opts) => {
     rendererSettings = { },
     style = { },
     inject = { },
-    puppeteerOptions = { },
+    puppeteerOptions = { headless: true, args: ['--no-sandbox', '--disable-setuid-sandbox'] },
     ffmpegOptions = {
       crf: 20,
       profileVideo: 'main',
@@ -368,7 +368,7 @@ ${inject.body || ''}
       path: (isApng || isMp4) ? undefined : frameOutputPath,
       ...screenshotOpts
     })
-    
+
     if(progress) {
       progress(frame, numFrames)
     }
