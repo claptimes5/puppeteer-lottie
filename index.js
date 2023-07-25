@@ -69,7 +69,7 @@ module.exports = async (opts) => {
     rendererSettings = { },
     style = { },
     inject = { },
-    puppeteerOptions = { headless: true, args: ['--no-sandbox', '--disable-setuid-sandbox'] },
+    puppeteerOptions = { headless: 'new', args: ['--no-sandbox', '--disable-setuid-sandbox'] },
     ffmpegOptions = {
       crf: 20,
       profileVideo: 'main',
