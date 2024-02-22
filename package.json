@@ -43,7 +43,7 @@
     "ora": "^4.0.3",
     "ow": "^0.17.0",
     "pluralize": "^7.0.0",
-    "puppeteer": "^20.9.0",
+    "puppeteer": "^22.2.0",
     "sprintf-js": "^1.1.2",
     "tempy": "^0.3.0"
   }
