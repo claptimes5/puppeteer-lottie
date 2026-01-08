@@ -39,11 +39,11 @@
     "css-in-js-utils": "^3.0.2",
     "execa": "^1.0.0",
     "fs-extra": "^8.1.0",
-    "lottie-web": "^5.12.2",
+    "lottie-web": "^5.13.0",
     "ora": "^4.0.3",
     "ow": "^0.17.0",
     "pluralize": "^7.0.0",
-    "puppeteer": "^22.2.0",
+    "puppeteer": "^24.34.0",
     "sprintf-js": "^1.1.2",
     "tempy": "^0.3.0"
   }
